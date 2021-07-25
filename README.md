@@ -4,5 +4,5 @@ Application for car rescue when it breaks down on the way, rescue is either by d
 We used Nodejs as our programming language, ExpressJs framework, Mongodb and Restful API. <br />
 The project is 3 applications; customer app, winch driver app and mechanic app.
 # My role:
-I worked in the backend side.
+I worked mainly in the backend side.
 
