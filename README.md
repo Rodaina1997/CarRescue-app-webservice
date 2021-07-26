@@ -21,8 +21,8 @@ through the admin panel. <br />
 2) a. Adding new cars: First time the user logs in a list of all the cars is being sent to the mobile. It sends an array of the cars that are registered on the site. <br />
    b. Loading the customer’s car: It is done on login by sending a list of the customer’s cars. The request contains the following data:- CarId - Brand - Model - Year of make -    OwnerId - Plates.
 3) Making request from client-side and mechanic/winch driver accepting the request: The matching is done based on the shortest distance and then time of arrival of the driver. The web service makes use of the Google Maps API to get the distance and time.
-A. Creating a new request from CLIENT-SIDE either winch/mechanic request (each request has its parameters that will be sent as,pickup Location,dropoff location, initial diagnosis to the car,..).
-B. Request from MECHANIC/DRIVER-SIDE to get matched with nearest client and accepting the request he gets matched with.
+3.1. Creating a new request from CLIENT-SIDE either winch/mechanic request (each request has its parameters that will be sent as,pickup Location,dropoff location, initial diagnosis to the car,..).
+3.2. Request from MECHANIC/DRIVER-SIDE to get matched with nearest client and accepting the request he gets matched with.
 C. Checking the request status from CLIENT-SIDE , response to the request: searching status, accepted status, termibated ,..
 D. Cancelling Request from CLIENT-SIDE.
 E. Live tracker to Update Location to MECHANIC/DRIVER-SIDE.
