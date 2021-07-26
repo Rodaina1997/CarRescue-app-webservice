@@ -21,22 +21,22 @@ through the admin panel. <br />
 2) a. Adding new cars: First time the user logs in a list of all the cars is being sent to the mobile. It sends an array of the cars that are registered on the site. <br />
    b. Loading the customer’s car: It is done on login by sending a list of the customer’s cars. The request contains the following data:- CarId - Brand - Model - Year of make -    OwnerId - Plates.
 3) Making request from client-side and mechanic/winch driver accepting the request: The matching is done based on the shortest distance and then time of arrival of the driver. The web service makes use of the Google Maps API to get the distance and time.
-1. Creating a new request from CLIENT-SIDE either winch/mechanic request (each request has its parameters that will be sent as,pickup Location,dropoff location, initial diagnosis to the car,..).
-2. Request from MECHANIC/DRIVER-SIDE to get matched with nearest client and accepting the request he gets matched with.
-3. Checking the request status from CLIENT-SIDE , response to the request: searching status, accepted status, termibated ,..
-4. Cancelling Request from CLIENT-SIDE.
-5. Live tracker to Update Location to MECHANIC/DRIVER-SIDE.
-6. Cancelling Request from MECHANIC/DRIVER-SIDE.
-7. Winch driver/mechanic arrival at customer's location.
-8. Winch driver/mechanic service start.
-9.  Problems that can face the customer ( he can send them to us as initial diagnosis),services mechanic can provide him, items that he can buy to his car are added to the database (In mechanic request case)
-10. problems, services, items can be loaded on the applications. (In mechanic request case)
-11. Mechanic choosing Repairs that the car needs either service to be made or item to be put in the car
-12. Customer display for chosen Repairs to approve them
-13. Ending the winch ride 
-14. Fare Calculation
-15. Rating for both sides customer,mech/driver
-16. Adding requests logs to the database
+A. Creating a new request from CLIENT-SIDE either winch/mechanic request (each request has its parameters that will be sent as,pickup Location,dropoff location, initial diagnosis to the car,..).
+B. Request from MECHANIC/DRIVER-SIDE to get matched with nearest client and accepting the request he gets matched with.
+C. Checking the request status from CLIENT-SIDE , response to the request: searching status, accepted status, termibated ,..
+D. Cancelling Request from CLIENT-SIDE.
+E. Live tracker to Update Location to MECHANIC/DRIVER-SIDE.
+F. Cancelling Request from MECHANIC/DRIVER-SIDE.
+G. Winch driver/mechanic arrival at customer's location.
+H. Winch driver/mechanic service start.
+I.  Problems that can face the customer ( he can send them to us as initial diagnosis),services mechanic can provide him, items that he can buy to his car are added to the database (In mechanic request case)
+J. problems, services, items can be loaded on the applications. (In mechanic request case)
+K. Mechanic choosing Repairs that the car needs either service to be made or item to be put in the car
+L. Customer display for chosen Repairs to approve them
+M. Ending the winch ride 
+N. Fare Calculation
+0. Rating for both sides customer,mech/driver
+P. Adding requests logs to the database
 - Those are considered to be the FUNCTIONAL REQUIREMENTS of the project.
 - NON-FUNCTIONAL REQUIREMENTS: ( which are related to the backend side)
 1. All apps support both Arabic & English Languages.
