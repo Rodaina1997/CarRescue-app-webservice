@@ -16,10 +16,10 @@ The project is 3 applications; customer app, winch driver app and mechanic app. 
 - Validation of data
 - Validates the mobile number on the firebase and date.
 - Returning the proper JWT token which has the user id and the user type and a few more data used by the app. <br />
-  This is the registration for customer, registration for mechanics and winch drivers is a similar process to that of the customer but added to that is the required papers         upload like the driving license, national id and so on. The request is then sent to the server for review and being approved by one of the admins after reviewing the papers
-  through the admin panel. <br />
-2) a.Adding new cars: First time the user logs in a list of all the cars is being sent to the mobile. It sends an array of the cars that are registered on the site. 
-   b. Loading the customer’s car: It is done on login by sending a list of the customer’s cars. The request contains the following data:- CarId - Brand - Model - Year of make -    OwnerId - Plates
+This is the registration for customer, registration for mechanics and winch drivers is a similar process to that of the customer but added to that is the required papers         upload like the driving license, national id and so on. The request is then sent to the server for review and being approved by one of the admins after reviewing the papers
+through the admin panel. <br />
+2) a. Adding new cars: First time the user logs in a list of all the cars is being sent to the mobile. It sends an array of the cars that are registered on the site. <br />
+   b. Loading the customer’s car: It is done on login by sending a list of the customer’s cars. The request contains the following data:- CarId - Brand - Model - Year of make -    OwnerId - Plates.
 3) Making request from client-side and mechanic/winch driver accepting the request: The matching is done based on the shortest distance and then time of arrival of the driver. The web service makes use of the Google Maps API to get the distance and time.
 1. Creating a new request from CLIENT-SIDE either winch/mechanic request (each request has its parameters that will be sent as,pickup Location,dropoff location, initial diagnosis to the car,..).
 2. Request from MECHANIC/DRIVER-SIDE to get matched with nearest client and accepting the request he gets matched with.
